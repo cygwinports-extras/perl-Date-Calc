@@ -1,0 +1,78 @@
+perl-Date-Calc 
+------------------------------------------- 
+This package consists of a C library (intended to make life easier for C
+developers) and a Perl module to access this library from Perl.
+
+The library provides all sorts of date calculations based on the Gregorian
+calendar (the one used in all western countries today), thereby complying
+with all relevant norms and standards: ISO/R 2015-1971, DIN 1355 and, to
+some extent, ISO 8601 (where applicable).
+
+Runtime requirements:
+  perl-5.10.0-3
+  perl-Bit-Vector-6.4-2
+  perl-Carp-Clan-6.00-1
+
+Canonical homepage:
+  http://search.cpan.org/~stbey/Date-Calc/
+
+Canonical download:
+  http://www.cpan.org/authors/id/S/ST/STBEY/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Date-Calc-5.4-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./cygport-Date-Calc-5.4-X.cygport all
+
+This will create:
+  /usr/src/perl-Date-Calc-5.4-X-src.tar.bz2
+  /usr/src/perl-Date-Calc-5.4-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Date/Calc.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Date/Calc.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Date/Calc/Object.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Date/Calc/Object.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Date/Calendar.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Date/Calendar.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Date/Calendar/Profiles.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Date/Calendar/Profiles.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Date/Calendar/Year.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Date/Calendar/Year.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Date/Calc/.packlist
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Date/Calc/Calc.dll
+  /usr/share/doc/perl-Date-Calc-5.4/Artistic.txt
+  /usr/share/doc/perl-Date-Calc-5.4/CHANGES.txt
+  /usr/share/doc/perl-Date-Calc-5.4/CREDITS.txt
+  /usr/share/doc/perl-Date-Calc-5.4/EXAMPLES.txt
+  /usr/share/doc/perl-Date-Calc-5.4/GNU_GPL.txt
+  /usr/share/doc/perl-Date-Calc-5.4/GNU_LGPL.txt
+  /usr/share/doc/perl-Date-Calc-5.4/INSTALL.txt
+  /usr/share/doc/perl-Date-Calc-5.4/README.txt
+  /usr/share/doc/perl-Date-Calc-5.4/TOOLS.txt
+  /usr/share/man/man3/Date.Calc.3pm.gz
+  /usr/share/man/man3/Date.Calc.Object.3pm.gz
+  /usr/share/man/man3/Date.Calendar.3pm.gz
+  /usr/share/man/man3/Date.Calendar.Profiles.3pm.gz
+  /usr/share/man/man3/Date.Calendar.Year.3pm.gz
+
+------------------
+
+Port Notes:
+
+----- version 5.4-2 -----
+Rebuilt for perl-5.10.
+
+----- version 5.4-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

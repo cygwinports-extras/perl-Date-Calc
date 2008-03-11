@@ -1,0 +1,11 @@
+category: Perl
+requires: perl perl-Bit-Vector perl-Carp-Clan
+sdesc: "Perl module for Gregorian date calculations"
+ldesc: "This package consists of a C library (intended to make life
+easier for C developers) and a Perl module to access this library from
+Perl.
+
+The library provides all sorts of date calculations based on the Gregorian
+calendar (the one used in all western countries today), thereby complying
+with all relevant norms and standards: ISO/R 2015-1971, DIN 1355 and, to
+some extent, ISO 8601 (where applicable)."
