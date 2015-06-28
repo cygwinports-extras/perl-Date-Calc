@@ -1,7 +1,12 @@
-category: Perl
-requires: perl perl-Bit-Vector perl-Carp-Clan
-sdesc: "Perl module for Gregorian date calculations"
-ldesc: "This package consists of a C library (intended to make life
+CPAN_AUTHOR=stbey
+inherit perl
+
+NAME="perl-Date-Calc"
+VERSION=6.3
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Perl module for Gregorian date calculations"
+DESCRIPTION="This package consists of a C library (intended to make life
 easier for C developers) and a Perl module to access this library from
 Perl.
 
